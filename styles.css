@@ -1,3 +1,10 @@
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
@@ -44,8 +51,11 @@ img {
   background: var(--main-red);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+  padding: 20px 17px;
 }
-
+.nav li {
+  padding: 4px 6px;
+}
 .nav-list {
   display: flex;
   margin-right: 2rem;
